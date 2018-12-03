@@ -1,0 +1,92 @@
+#addNewProduct{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    left: 10px;
+    top:  30px;
+
+}
+#addBtn{
+    height: 35px;
+    width: 60px;
+    background-color: #42f45c;
+    color: aliceblue;
+    position: absolute;
+    top:  30px;
+    left: 315px;
+
+}
+form{
+    width: 400px;
+    height: 100px;
+    background-color: #e0ddd7;
+    position: relative;
+}
+#productList{
+    position: relative;
+    width: 600px;
+ }
+.row{
+    width:600px;
+    height:50px;
+
+}
+.btnEdit{
+   left: 300px;
+    width: 60px;
+    background-color: #42f45c;
+    color: aliceblue;
+    height: 35px;
+
+
+}
+.btnDelete{
+    left: 450px;
+    width: 90px;
+    background-color: #42f45c;
+    color: aliceblue;
+    height: 35px;
+}
+.col1{
+    width: 600px;
+}
+#numberOf{
+    left: 600px;
+    color: darkred;
+
+}
+#editProduct{
+    position: relative;
+    background-color: #e0ddd7;
+    width: 400px;
+    height: 130px;
+}
+#editInput{
+    position: absolute;
+    height: 22%;
+    width: 70%;
+    left: 5%;
+    top: 30%;
+}
+#setEdit{
+    position: absolute;
+    height: 25%;
+    width: 15%;
+    left: 78%;
+    top: 30%;
+    background-color: #42f45c;
+    color: aliceblue;
+}
+#XBtn{
+    position: absolute;
+    height: 25%;
+    width: 15%;
+    left: 5%;
+    top: 65%;
+    background-color: #42f45c;
+    color: aliceblue;
+}
+#EditFrame{
+    visibility: hidden;
+}
+tr:nth-child(odd) {background-color: #e0ddd7;}
